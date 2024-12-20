@@ -96,7 +96,7 @@ while True:
             
             mpDraw.draw_landmarks(img, handLms, mpHands.HAND_CONNECTIONS)
 
-    cv2.putText(img, "Finger: " + str(showfinger) , (50, 400), cv2.FONT_HERSHEY_PLAIN, 1,(0, 255, 0), 1)
+    cv2.putText(img, "Finger: " + str(showfinger) , (100, 400), cv2.FONT_HERSHEY_PLAIN, 1,(0, 255, 0), 1)
     cv2.putText(img, "Tanawat Arampraphat" , (450, 70), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 0), 1)     
     cv2.putText(img, "670610759" , (450, 100), cv2.FONT_HERSHEY_PLAIN, 1, (0, 0, 0), 1)               
     cv2.imshow("Image", img)
